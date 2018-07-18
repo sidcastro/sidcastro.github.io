@@ -1,5 +1,9 @@
 @import url("https://use.typekit.net/rgp7xjs.css");
 
+.experience:hover {
+    color: #ff2929;
+}
+
 .spacing {
   height: 20px; }
 
