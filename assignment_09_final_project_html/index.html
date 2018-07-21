@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Relaxation</title>
+	<style>
+		html, body, canvas {
+			border: 0;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		@font-face {
+			font-family: 'TsukuBRdGothic';
+			font-weight: normal;
+			src: url(n4.otf);
+		}
+
+		@font-face {
+			font-family: 'TsukuBRdGothic';
+			font-weight: bold;
+			src: url(n7.otf);
+		}
+	</style>
+</head>
+<body>
+	<script src="processing.js"></script>
+	<canvas id="mainCanvas" data-processing-sources="DigitalClock.pde Intro.pde Mood.pde assignment_09_final_project.pde"></canvas>
+	<script>
+		setTimeout(function() {
+			mainCanvas.focus();
+			mainCanvas.click();
+		}, 200);
+	</script>
+</body>
+</html>
