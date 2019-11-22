@@ -29,11 +29,6 @@
   -moz-animation: colored-bg 20s ease-in infinite;
   animation: colored-bg 20s ease-in infinite; }
 
-.full.number-bg {
-  background-image: url(../images/@stock/image-bg-8.jpg);
-  margin-bottom: 100px;
-  background-position: 50% 50%; }
-
 .full.light {
   color: #fff; }
 
@@ -49,14 +44,6 @@
 .full.light-grey {
   background: #f9f9f9; }
 
-.full.fixed-image {
-  background-size: 45%;
-  background-position: 50% 30%;
-  background-repeat: no-repeat;
-  background-image: url(../images/@stock/bg-1.jpg);
-  -webkit-animation: fixed-images 10s ease infinite;
-  -moz-animation: fixed-images 10s ease infinite;
-  animation: fixed-images 10s ease infinite; }
 
 .full.zigzag {
   padding-top: 500px;
@@ -70,9 +57,6 @@
   .full.zigzag .overlay {
     background: #222;
     padding: 80px 0; }
-
-.full.bg-1 {
-  background-image: url(../images/@stock/work-header-1.jpg); }
 
 .overlay {
   padding: 50px 0 50px;
@@ -88,11 +72,9 @@
 .parallax {
   background-attachment: fixed; }
 
-.centered-text {
-  text-align: center; }
-
-.right-aligned {
-  text-align: right; }
+.align-left {
+    text-align: left;
+  }
 
 .hide {
   display: none; }
@@ -126,21 +108,21 @@ body {
   overflow-x: hidden;
   letter-spacing: 1px; }
 
-.special-title.alt::after {
+/* .special-title.alt::after {
   content: "";
   height: 40px;
   background: url(../images/title-decoration.png) center center no-repeat;
   width: 80px;
   display: block;
-  margin: 0 auto 50px; }
+  margin: 0 auto 50px; } */
 
-.special-title::after {
+/* .special-title::after {
   content: "";
   height: 2px;
   background: #333;
   width: 40px;
   display: block;
-  margin: 20px 0 30px; }
+  margin: 20px 0 30px; } */
 
 .special-title.white::after {
   background: #fff; }
@@ -313,33 +295,8 @@ body {
     background: #dfe2f1; }
   100% {
     background: #D5E7E5; } }
-@-webkit-keyframes fixed-images {
-  0% {
-    background-image: url(../images/@stock/bg-1.jpg); }
-  33% {
-    background-image: url(../images/@stock/bg-2.jpg); }
-  67% {
-    background-image: url(../images/@stock/bg-3.jpg); }
-  100% {
-    background-image: url(../images/@stock/bg-1.jpg); } }
-@-moz-keyframes fixed-images {
-  0% {
-    background-image: url(../images/@stock/bg-1.jpg); }
-  33% {
-    background-image: url(../images/@stock/bg-2.jpg); }
-  67% {
-    background-image: url(../images/@stock/bg-3.jpg); }
-  100% {
-    background-image: url(../images/@stock/bg-1.jpg); } }
-@keyframes fixed-images {
-  0% {
-    background-image: url(../images/@stock/bg-1.jpg); }
-  33% {
-    background-image: url(../images/@stock/bg-2.jpg); }
-  67% {
-    background-image: url(../images/@stock/bg-3.jpg); }
-  100% {
-    background-image: url(../images/@stock/bg-1.jpg); } }
+
+
 @-webkit-keyframes circle-1 {
   0% {
     top: 10px;
@@ -6287,7 +6244,9 @@ i.arrow.down {
     margin-top: -50px;
     color: #333;
     font-size: 30px;
-    font-weight: bold; }
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 10%; }
   .work .info p {
     font-size: 14px;
     color: #999; }
@@ -6334,14 +6293,6 @@ nav.wrapper {
 .sticky.post.fixed {
   position: relative; }
 
-.sticky.post {
-  position: relative;
-  background: #333;
-  color: #fff;
-  background-image: url(../images/@stock/post-bg.jpg);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover; }
   .sticky.post .featured-post {
     position: absolute;
     right: 0;
@@ -6388,16 +6339,6 @@ nav.wrapper {
     border: 1px solid #FF5959;
     background: none; }
 
-.sticky.post:hover {
-  background-color: #333;
-  background-image: url(../images/@stock/post-bg.jpg); }
-
-.post:hover {
-  background-color: #333;
-  background-image: url(../images/@stock/vo5-6.jpg);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover; }
   .post:hover a.button.red {
     color: #fff;
     background: #FF5959; }
@@ -6410,14 +6351,6 @@ nav.wrapper {
   margin-bottom: 0;
   padding: 0 !important;
   background: none; }
-  .post.single .top-section {
-    padding: 200px 0;
-    background-color: #666;
-    background-image: url(../images/@stock/post-bg.jpg);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 100px; }
     .post.single .top-section h2 {
       line-height: 48px;
       font-size: 48px;
@@ -6516,7 +6449,8 @@ li button:before {
   color: #666; }
   .footer ul {
     list-style: none;
-    margin: 0; }
+    margin: 0;
+    text-align: center; }
   .footer a {
     color: #666; }
   .footer a:hover {
@@ -6530,3 +6464,7 @@ li button:before {
 .about-image img {
   width: 100%;
   max-height: 600px; }
+
+.in-line {
+  display:inline;
+}
