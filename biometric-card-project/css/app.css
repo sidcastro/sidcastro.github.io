@@ -1,0 +1,270 @@
+body {
+  background-color: #27404A;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: aktiv-grotesk, sans-serif;
+}
+
+main {
+  padding: auto auto auto auto;
+}
+
+h1 {
+  display: block;
+  margin: 5% auto auto auto;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: bold;
+}
+
+/* BUTTON */
+.button {
+  display: block;
+  margin: 20% auto auto auto;
+  padding: 5% 12% 5% 12%;
+
+  background-color: #D79933;
+  border: none;
+  color: #111E24;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.setup-button {
+  display: block;
+  margin: 5% auto 5% auto;
+  padding: 5% 12% 5% 12%;
+
+  background-color: #D79933;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 80%;
+}
+
+.finish-button {
+  display: block;
+  margin: 5% auto 5% auto;
+  padding: 5% 12% 5% 12%;
+
+  background-color: #666462;
+  border: none;
+  color: #aba7a5;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 80%;
+}
+
+.round-button {
+  border-radius: 12px;
+}
+
+/* HAND-DEMO */
+.swivel-parent {
+  display: block;
+  width: 70%;
+  margin: 20% auto auto auto;
+  perspective: 10px;
+}
+
+img.hand {
+  display: block;
+  margin: auto auto auto auto;
+
+  animation:swivel .6s ease-in-out infinite alternate;
+}
+
+@keyframes swivel {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-.2deg);
+  }
+}
+
+.how-to {
+  display: block;
+  margin: 8% auto 5% auto;
+  text-align: center;
+  width: 85%;
+
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.how-to-desc {
+  display: block;
+  margin: auto auto auto auto;
+  text-align: center;
+  width: 80%;
+
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 20px;
+  color: white;
+  line-height: normal;
+
+}
+
+/* HAND-LIVE */
+
+img.my-hand {
+  display: block;
+  margin: 20% auto auto auto;
+
+  max-width: 80%;
+  height: auto !important;
+}
+
+/* HOME PAGE */
+
+.home-page {
+  background-image: url("/images/train-edited.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 812px;
+}
+
+.home-desc {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px #030303;
+  margin: 10% auto auto auto;
+  width: 90%;
+}
+
+.home-slogan {
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px #030303;
+  margin: 30% auto auto auto;
+  width: 90%;
+}
+
+.thanks-slogan {
+  font-size: 20px;
+  text-align: center;
+  color: #111E24;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: bolder;
+  margin: auto auto 3% auto;
+  width: 80%;
+}
+
+.thanks-desc {
+  font-size: 15px;
+  text-align: center;
+  color: #111E24;
+  font-family: aktiv-grotesk, sans-serif;
+  margin: auto auto auto auto;
+  width: 80%;
+}
+
+.thank-you {
+  background-color: white;
+  width: 80%;
+  margin: 20% auto auto auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+img.home-logo {
+  display: block;
+  margin: 40% auto auto auto;
+  max-width: 70%;
+  height: auto !important;
+}
+
+/* USER PAGE */
+
+img.logo {
+  display: block;
+  margin: 8% auto auto auto;
+
+  max-width: 40%;
+  height: auto !important;
+}
+
+img.user {
+  display: block;
+  margin: auto auto auto auto;
+  padding-top: 10%;
+
+  max-width: 50%;
+  height: auto !important;
+}
+
+.big-box-structure {
+  display: block;
+  background-color: white;
+  width: 80%;
+  margin: 6% auto auto auto;
+  padding: 5%;
+}
+
+.box-structure {
+  background-color: white;
+  padding: 20px;
+  width: 80%;
+  margin: 30px auto auto auto;
+}
+
+.box-content {
+  font-size: 20px;
+  color: #111E24;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: bold;
+  padding-top: 2%;
+}
+
+.red-text {
+  color: red;
+  font-weight: 100;
+}
+
+#location-1, #location-2, #location-3, #location-4, #location-5 {
+  width: 100%;
+  text-align: center;
+  background-color: #c9c7c6;
+  padding: 2%;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.link-to {
+  padding-top: 2%;
+  font-size: 15px;
+  color: #D79933;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: regular;
+  width: 90%;
+  text-align: right;
+}
+
+.shadow {
+  box-shadow: 10px 10px #c9c7c6;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
