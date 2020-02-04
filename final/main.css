@@ -1,0 +1,171 @@
+body {
+  background-color: #111E24;
+  margin: auto auto auto auto;
+  font-family: aktiv-grotesk, sans-serif;
+  padding: auto auto auto auto;
+  height: auto !important;
+}
+
+.home-bg {
+  max-width: 100%;
+  background: url("images/home-image.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  margin: auto auto auto auto;
+  font-family: aktiv-grotesk, sans-serif;
+  padding: auto auto auto auto;
+  height: auto !important;
+}
+
+span {
+  text-shadow: 2px 2px #111E24;
+}
+/* PROBLEM */
+
+.box {
+  background-color: #111E24;
+  width: 60%;
+  max-width: 100%;
+  margin: 15% auto auto auto;
+  padding: 2%;
+}
+
+.title {
+  display: block;
+  text-align: left;
+  font-size: 85px;
+  color: #93BAE3;
+  font-family: 'Abel', sans-serif;
+  font-weight: bolder;
+  margin: 20% auto auto auto;
+  width: 60%;
+  height: auto !important;
+}
+
+.problem-heading {
+  display: block;
+  text-align: left;
+  color: white;
+  font-weight: lighter;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 18px;
+  margin: auto auto auto auto;
+  width: 60%;
+  height: auto !important;
+}
+
+.problem-bg {
+  max-width: 100%;
+  background: url("images/missing-train.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  margin: auto auto auto auto;
+  font-family: aktiv-grotesk, sans-serif;
+  padding: auto auto auto auto;
+  height: auto !important;
+}
+
+/* BIOMETRIC CARD */
+
+.biometric-bg {
+  max-width: 100%;
+  background: url("images/hand-scanner.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  margin: auto auto auto auto;
+  font-family: aktiv-grotesk, sans-serif;
+  padding: auto auto auto auto;
+  height: auto !important;
+}
+
+.main-heading {
+  display: block;
+  text-align: left;
+  color: white;
+  font-weight: lighter;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 25px;
+  margin: auto auto auto auto;
+  width: 60%;
+}
+
+/* APP */
+.app-title {
+  display: block;
+  text-align: left;
+  margin: 12% auto 2% auto;
+  font-size: 85px;
+  color: #93BAE3;
+  font-family: 'Abel', sans-serif;
+  width: 60%;
+  font-weight: bolder;
+  height: auto !important;
+}
+
+.app-heading {
+  display: block;
+  text-align: left;
+  color: #93BAE3;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 25px;
+  width: 60%;
+  margin: auto auto auto auto;
+}
+
+.app-desc {
+  display: block;
+  text-align: left;
+  color: white;
+  width: 60%;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 18px;
+  margin: auto auto 3% auto;
+}
+
+/* ABOUT  */
+.about-title {
+  display: block;
+  margin: 20% auto auto auto;
+  font-size: 50px;
+  color: #111E24;
+  font-family: 'Abel', sans-serif;
+  width: 60%;
+  height: auto !important;
+}
+
+/* MENU  */
+#menu {
+  display: block;
+  position: fixed;
+  top: 25%;
+  z-index: 1;
+
+  font-family: 'Julius Sans One', sans-serif;
+  list-style-type: none;
+  line-height: 350%;
+  color: white;
+  font-size: 14px;
+}
+
+#menu > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+#menu > li > a:hover {
+  color: #93BAE3;
+  text-decoration: underline;
+}
+
+#menu > li > a:active {
+  font-size: 16px;
+  color: #93BAE3;
+}
+
+.current {
+  color: #93BAE3 !important;
+  text-decoration: underline !important;
+}
